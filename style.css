@@ -93,14 +93,14 @@ body {
   }
 
   footer {
-    text-align: center;
-  margin-top: 40px;
-  padding: 20px;
-  background-color: #f2f2f2;
-  font-size: 1em;
     a {
       text-decoration: none;
+      text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 1em;
       color: rgba(255, 255, 255, 0.5);
+      
     }
   }
 }
