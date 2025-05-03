@@ -59,23 +59,17 @@ body {
     }
     */
     h2 {
- text-align: center;
+ display: inline-block;
   margin-top: 20px;
   font-size: 20px;
-
-  /* Tampilan kotak latar */
-  background-color: white;
   padding: 10px 20px;
-  border-radius: 12px;
-  display: inline-block;
+  background-color: white;
+  color: black;
   border: 2px solid black;
-
-  /* Efek gradasi teks */
-  background-clip: padding-box;
-  color: transparent;
-  background-image: linear-gradient(to right, red, white);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
     }
 
     
