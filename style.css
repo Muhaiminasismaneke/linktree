@@ -11,17 +11,17 @@ main {
 body {
   font-family: "Poppins", sans-serif;
   color: white;
-  /* background: linear-gradient(to right, #330867, #30cfd0); */
-  /* background-image: as; */
+  background-image: url(/asset/bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
-
-  background-image: url(/asset/c9466ec025d3f798a103e56a4a71058d.jpg);
+  min-height: 100dvh; /* responsif untuk perangkat mobile modern */
   margin: 0;
   justify-content: center;
   gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   figure {
     overflow: hidden;
@@ -95,6 +95,14 @@ body {
       margin-bottom: 10px;
       width: 250px;
       height: 250px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    body {
+      background-attachment: scroll; /* menghindari masalah saat scroll */
+      background-size: cover;
+      background-position: center center;
     }
   }
 
