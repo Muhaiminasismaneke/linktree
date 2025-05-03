@@ -59,21 +59,23 @@ body {
     }
     */
     h2 {
-  text-align: center;
+ text-align: center;
   margin-top: 20px;
   font-size: 20px;
 
-  background-color: black;              /* latar belakang solid hitam */
-  border: 2px solid black;              /* border hitam */
-  border-radius: 10px;                  /* sudut melengkung */
+  /* Tampilan kotak latar */
+  background-color: white;
   padding: 10px 20px;
+  border-radius: 12px;
   display: inline-block;
+  border: 2px solid black;
 
-  background-clip: padding-box;         /* agar warna latar tetap solid di padding */
+  /* Efek gradasi teks */
+  background-clip: padding-box;
   color: transparent;
-  background-image: linear-gradient(to right, red, white); /* gradasi warna teks */
-  -webkit-background-clip: text;        /* untuk efek gradasi pada teks */
-  -webkit-text-fill-color: transparent; /* agar teks pakai warna gradasi */
+  background-image: linear-gradient(to right, red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     }
 
     
